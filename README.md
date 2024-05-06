@@ -1,6 +1,6 @@
-# Data-Analysis-Portfolio
-# Hello, I'm Akmaral! Currently pursuing my Master's degree in Public Statistics, I have a strong interest in leveraging data to unveil meaningful insights. My academic experience has  
-# given me a strong understanding of life sciences and the ability to analyze intricate data to find patterns and trends.
+##### Data-Analysis-Portfolio
+##### Hello, I'm Akmaral! Currently pursuing my Master's degree in Public Statistics, I have a strong interest in leveraging data to unveil meaningful insights. My academic experience has  
+##### given me a strong understanding of life sciences and the ability to analyze intricate data to find patterns and trends.
 
 # Throughout my studies, I've sharpened my skills in data management and statistical analysis. These competencies, coupled with my innate ability to work with intricate data, position me 
 # well for an entry-level role as a data specialist.
