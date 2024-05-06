@@ -17,7 +17,22 @@ SELECT name, publisher
 FROM games
 WHERE publisher IS NULL
 
+-- Select games with publisher “Nintendo” whose sales in Europe are greater than 10M 
+-- or games from publisher “Sony Computer Entertainment” whose sales in Japan are greater than 3M.
+SELECT name, publisher, EU_Sales, JP_Sales 
+FROM games
+WHERE publisher = 'Nintendo' AND EU_Sales>10 OR publisher = 'Sony Computer Entertainment' AND JP_Sales>3
 
+-- How many games have the word “Mario” in the title?
+SELECT name 
+FROM games
+WHERE name like '%Mario%'
+
+-- Select all games of the genre: Sports, Action, Simulation and which have between 4M and 8M sales in the United States.
+SELECT name, genre, NA_Sales 
+FROM games
+WHERE genre IN ('Sports', 'Action', 'Simulation') AND NA_Sales BETWEEN 4 AND 8
+  
 -- Among the games that contain “FIFA” in the title, which one has achieved the most sales in Europe?
 SELECT name, EU_Sales
 FROM games
